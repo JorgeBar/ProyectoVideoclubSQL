@@ -1,22 +1,7 @@
-create schema if not exists  mrivas_entrega;
+create schema if not exists  jorgevideoclub;
 
-set schema 'mrivas_entrega';
+set schema 'jorgevideoclub';
 
-drop table if exists alquiler cascade;
-
-drop table if exists copias_pelicula cascade;
-
-drop table if exists direcciones cascade;
-
-drop table if exists directores cascade;
-
-drop table if exists generos cascade;
-
-drop table if exists peliculas cascade;
-
-drop table if exists socios cascade;
-
-drop table if exists tmp_videoclub cascade;
 
 --- CREACION DE TABLAS -------------------------------
 CREATE TABLE if not exists socios (
